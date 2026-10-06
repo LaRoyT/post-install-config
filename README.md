@@ -13,7 +13,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop (RDP)
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used</h2>
@@ -27,7 +27,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Teams
 - Configure Agents
 - Configure Users
-- Configure SLA
+- Configure SLA (Service Level Agreement) 
 - Configure Help Topics
 
 <h2>Configuration Steps</h2>
@@ -89,7 +89,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 </p>
 <br />
 <br />
-<h3 align="center">Configure Agents (workers)</h3>
+<h3 align="center">Configure Agents (Workers)</h3>
 <br />
 <p>
   Admin Panel -> Agents -> Add New.
@@ -105,7 +105,7 @@ This tutorial outlines the post-install configuration of the open-source help de
   <img src="https://i.imgur.com/NcCP0v9.png" height="75%" width="100%" alt="agent two"/>
   <img src="https://i.imgur.com/aKTJ01A.png" height="75%" width="100%" alt="agent two access"/>
 </p>
-<h3 align="center">Configure Users (customers)</h3>
+<h3 align="center">Configure Users (Customers)</h3>
 <br />
 <p>
   Admin Panel -> Users -> Add New.
@@ -119,19 +119,19 @@ This tutorial outlines the post-install configuration of the open-source help de
 </p>
 <br />
 <br />
-<h3 align="center">Configure SLA</h3>
+<h3 align="center">Configure Service Level Agreement (SLA)</h3>
 <br />
 <p>
   Admin Panel -> Manage -> SLA.
 </p>
 <p>
-  Sev-A (1 hour, 24/7).
+  Sev-A, Business Critical (1 hour, 24/7).
 </p>
 <p>
-  Sev-B (4 hours, 24/7).
+  Sev-B, Important to Operations (4 hours, 24/7).
 </p>
 <p>
-  Sev-C (8 hours, business hours):
+  Sev-C, Day-To-Day Tasks (8 hours, business hours):
 </p>
 <p>
   <img src="https://i.imgur.com/6AAF3Ju.png" height="75%" width="100%" alt="sev one"/>
@@ -166,7 +166,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <br />
 <br />
 <p>
-  This now fully configures our osTicket. I hope this guide was able to help clarify and assist you in setting up your osTicket. It is recommended to practice triaging and solving tickets.
+  Now, osTicket has been fully configured. This guide should help clarify and assist you in setting up your osTicket. It is recommended to practice triaging and solving tickets on your own.
 </p>
 <p>
   This is a very important skill to have for any help desk specialist, as they are the first line of communication between a company and it's customers when it comes to handling issues regarding a product or service they provide.
